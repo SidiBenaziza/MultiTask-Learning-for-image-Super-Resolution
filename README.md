@@ -28,8 +28,11 @@ Use the prepare_npy_patches.py file for this purpose and change the destination 
 run this command in order to train your network, this requires multiple file path inputs. 
 
 --hr-train-file : The path containing the High Resolution Y Channel npy patches
+
 --hq-train-file : The path containing the Low Resolution (bicubic downsample) Y channel npy patches.
+
 --test-file     : The path containing the degraded Y channel npy patches after running through VVC.
+
 --outputs-dir   : The path where you wish to store the network's weights
 
 
