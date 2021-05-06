@@ -44,6 +44,7 @@ In order to plot the High-Resolution and Quality-Enhancement performances during
 
 run these commands while being in the repository directory, then follow the guidelines : 
 
-  rm -r runs
+  rm -r runs 
+  
   tensorboard --logdir=runs 
   
